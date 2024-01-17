@@ -1,0 +1,64 @@
+/* ChipComponent.css */
+.chip-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+  }
+  
+  .chip {
+    background-color: #e0e0e0;
+    border: 1px solid #bdbdbd;
+    padding: 4px 8px;
+    margin: 4px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .chip-remove {
+    cursor: pointer;
+    margin-left: 4px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item-list li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .item-list li:hover {
+    background-color: #f0f0f0;
+  }
+
+  /* ChipComponent.css */
+/* ... existing styles ... */
+
+.profile-pic {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 4px;
+  }
+  
+  /* ... existing styles ... */
+  
+  
